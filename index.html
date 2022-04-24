@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>CONVERSOR DE MOEDAS</title>
+    </head>
+    <body>
+       <h5>by: Bruno Ishimoto</h5>
+      <br>
+      <div class="container">
+        <div class="first-step">
+          <h1> CONVERSOR DE MOEDAS </h1>
+        <p> Clique no botão para converter sua moeda.</p>
+        <button onclick="go(1,2)">Iniciar</button>
+      </div>
+       <div class="second-step">
+         <h1>Conversor de moedas</h1>
+         <hr>
+         <h2> DÓLAR $</h2>
+         <label for="dolar">Insira seu valor:</label>
+         <input type="number" placeholder="Seu valor em real aqui" id="dolar"> 
+         <button onclick="validateDolar()">Calcular</button>
+         <br><br>
+         <h2> EURO € </h2>
+         <label for="euro">Insira seu valor:</label>
+         <input type="number" placeholder="Seu valor em real aqui" id="euro"> 
+         <button onclick="validateEuro()">Calcular</button>
+         <br><br>
+         <h2> IENE ¥ </h2>
+         <label for="iene">Insira seu valor:</label>
+         <input type="number" placeholder="Seu valor em real aqui" id="iene"> 
+         <button onclick="validateIene()">Calcular</button>
+         <br><br>
+         <h2> LIBRA £</h2>
+          <label for="libra">Insira seu valor:</label>
+         <input type="number" placeholder="Seu valor em real aqui" id="libra"> 
+         <button onclick="validateLibra()">Calcular</button>
+         <br><br>
+         <h2> BITCOIN ₿</h2>
+          <label for="bitcoin">Insira seu valor:</label>
+         <input type="number" placeholder="Seu valor em real aqui" id="bitcoin"> 
+         <button onclick="validateBitcoin()">Calcular</button>
+           <br><br>
+         
+       </div>
+       <div class="final-step">
+         <h3>Resultado!</h3>
+         <p id="resultado"></p>
+         <button onclick="go(3,2)">Calcular novamente</button>
+         <button onclick="go(3,1)">Finalizar</button>
+             
+       </div>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
+
+    cd ../../../Programação/Projetos pessoais/Conversor de moedas V1
