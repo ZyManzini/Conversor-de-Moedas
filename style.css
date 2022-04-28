@@ -1,26 +1,27 @@
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 100% 100%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-  font-family: arial, helvetica, sans-serif; 
-  text-align: center;
-  color: white;
-  background-image: url(https://media.seudinheiro.com/uploads/2021/10/ibovespa-bolsa-dolar-hoje-mercados.png);
-}
+    background: linear-gradient(-45deg, #ffb9a4, #fce9a6, #73d1f3, #89fadf);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    font-family: arial, helvetica, sans-serif; 
+    text-align: center;
+    color: white;
+  }
+
 .page-logo{
 width: 200px;
 }
 
 .container{
-  position:absolute;
-  top:50%;
+  position: absolute;
+  top:58%;
   left:50%;
-  background-color: rgba(47,79,79,1);
+  background-color: rgba(108, 215, 215, 0.839);
   transform: translate(-50%,-50%);
-  padding: 1em;
+  padding: 1em 5em;
   border-radius: 10px; 
-  box-shadow: 1px 1px 6px black;
+  box-shadow: 3px 3px 9px rgb(28, 28, 28);
+  text-shadow: 1px 1px 2px black;
 }
 button{
   background-color: MediumTurquoise;
@@ -28,9 +29,10 @@ button{
   border: none;
   padding: 1em;
   border-radius: 10px;
-  box-shadow: 1px 1px 6px black;
+  box-shadow: 1px 1px 6px rgb(29, 29, 29);
   cursor: pointer;
   font-size: 14.5px;
+  text-shadow: 1px 1px 2px black;
 }
 
 button:hover{
@@ -62,4 +64,6 @@ input{
 		background-position: 0% 50%;
 	}
 }
+
+
 
